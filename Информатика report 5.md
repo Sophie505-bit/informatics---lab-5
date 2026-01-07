@@ -15,32 +15,32 @@
 
 Клонируем репозиторий и создаем папку:
 
-![](C:\Users\София\Downloads\image2.png)
+![](image2.png)
 
 Пишем скрипт и делаем его исполняемым, проверяем, что создалось
 
-![](C:\Users\София\Downloads\image3.png)
+![](image3.png)
 
 Дальше создаем тестовые файлы для проверки:
 
-![](C:\Users\София\Downloads\image7.png)
+![](image7.png)
 Закомитился только файл с пометкой READY
 
-![](C:\Users\София\Downloads\image5.png)
+![](image5.png)
 
 **Задание 2 - Использование Git Flow в проекте**
 
 Сначала отключаем hooks чтобы они не мешали в этом задании, настраиваем
 git flow и пишем скрипт
 
-![](C:\Users\София\Downloads\image6.png)
+![](image6.png)
 Завершаем feature и начинаем релиз версии 1.0.0 (git flow release start
 v1.0.0).Для подготовки релиза создаем файл version.txt с номером версии
 (echo \"v1.0.0\" \> version.txt), добавляем в индекс (git add
 version.txt) и фиксируем (git commit -m \"Обновлена версия для релиза
 v1.0.0\").
 
-![](C:\Users\София\Downloads\image4.png)
+![](image4.png)
 
 Завершаем релиз(git flow release finish v1.0.0), при этом Git Flow
 выполнил слияние с ветками main и develop, а также создал тег v1.0.0.
@@ -58,5 +58,7 @@ checkout develop, git merge hotfix/hotfix-1.0.1), удаляем ветку hotf
 (git push origin develop), ветка main (git push origin main) и теги (git
 push \--tags).
 
-![](C:\Users\София\Downloads\image1.png)
+![](image1.png)
+
+
 
